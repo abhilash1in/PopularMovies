@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Popular Movies</string>
+    <string name="dummy_overview">This is the space for an overview of the movie</string>
+    <string name="dummy_title">Title</string>
+    <string name="dummy_year">Year</string>
+    <string name="dummy_rating">Rating</string>
+    <string name="API_key">YOUR_API_KEY_FOR_MOVIE_DB</string>
+</resources>
