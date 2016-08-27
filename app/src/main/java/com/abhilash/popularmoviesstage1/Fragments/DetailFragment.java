@@ -32,6 +32,7 @@ import com.abhilash.popularmoviesstage1.R;
 import com.abhilash.popularmoviesstage1.ReviewInfo;
 import com.abhilash.popularmoviesstage1.TrailerInfo;
 import com.github.ivbaranov.mfb.MaterialFavoriteButton;
+import com.squareup.picasso.NetworkPolicy;
 import com.squareup.picasso.Picasso;
 
 import org.json.JSONArray;

@@ -18,5 +18,5 @@
     <string name="error">Error! Try again</string>
     <string name="check_internet">Check internet connection and try again!</string>
     <string name="no_internet">Check internet connection and reopen the app to load new movies! "Open \'Favourites\' section for now?</string>
-    <string name="API_key">312dc944ac0680b1dacf04de89abe1a4</string>
+    <string name="API_key"><!--YOUR API KEY HERE--></string>
 </resources>

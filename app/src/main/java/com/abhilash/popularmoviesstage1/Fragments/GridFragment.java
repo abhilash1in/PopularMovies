@@ -156,6 +156,7 @@ public class GridFragment extends Fragment {
         final ProgressDialog loading = new ProgressDialog(getActivity());
         loading.setMessage("Fetching movies...");
         loading.setProgressStyle(ProgressDialog.STYLE_SPINNER);
+        loading.setCancelable(false);
         if(!loading.isShowing())
             loading.show();
 
@@ -206,20 +207,23 @@ public class GridFragment extends Fragment {
 
             @Override
             public void onResponse(Call call, Response response) throws IOException {
-                getActivity().runOnUiThread(new Runnable() {
-                    @Override
-                    public void run() {
-                        if(ab != null){
-                            if(topRated){
-                                ab.setTitle(getResources().getString(R.string.movies_top_rated));
-                            }
-                            else{
-                                ab.setTitle(getResources().getString(R.string.movies_popular));
+                try{
+                    getActivity().runOnUiThread(new Runnable() {
+                        @Override
+                        public void run() {
+                            if(ab != null){
+                                if(topRated){
+                                    ab.setTitle(getResources().getString(R.string.movies_top_rated));
+                                }
+                                else{
+                                    ab.setTitle(getResources().getString(R.string.movies_popular));
+                                }
                             }
                         }
-                    }
-                });
-
+                    });
+                }catch (Exception e){
+                    e.printStackTrace();
+                }
 
                 JSONArray resultArray;
                 JSONObject responseObject;
