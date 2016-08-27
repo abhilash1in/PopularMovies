@@ -4,5 +4,19 @@
     <string name="dummy_title">Title</string>
     <string name="dummy_year">Year</string>
     <string name="dummy_rating">Rating</string>
-    <string name="API_key">YOUR_API_KEY_FOR_MOVIE_DB</string>
+    <string name="dummy_trailer_name">Trailer Name</string>
+    <string name="dummy_review_content">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\'s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</string>
+    <string name="dummy_review_author">John Doe</string>
+    <string name="favourites_activity">Favourites</string>
+    <string name="no_favourites">No favourites found!</string>
+    <string name="no_reviews">No reviews yet!</string>
+    <string name="loading">Loading...</string>
+    <string name="movies_top_rated">Top Rated Movies</string>
+    <string name="movies_popular">Popular Movies</string>
+    <string name="ok">OK</string>
+    <string name="no">No,Quit</string>
+    <string name="error">Error! Try again</string>
+    <string name="check_internet">Check internet connection and try again!</string>
+    <string name="no_internet">Check internet connection and reopen the app to load new movies! "Open \'Favourites\' section for now?</string>
+    <string name="API_key">312dc944ac0680b1dacf04de89abe1a4</string>
 </resources>

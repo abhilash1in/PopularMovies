@@ -1,4 +1,4 @@
-package com.abhilash.popularmoviesstage1;
+package com.abhilash.popularmoviesstage1.Adapters;
 
 import android.content.Context;
 import android.view.LayoutInflater;
@@ -7,6 +7,8 @@ import android.view.ViewGroup;
 import android.widget.ArrayAdapter;
 import android.widget.ImageView;
 
+import com.abhilash.popularmoviesstage1.MovieInfo;
+import com.abhilash.popularmoviesstage1.R;
 import com.squareup.picasso.Picasso;
 
 import java.util.ArrayList;
